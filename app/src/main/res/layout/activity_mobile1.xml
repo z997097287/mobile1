@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ProgressBar
+        android:id="@+id/MG_PB_start"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="199dp" />
+    <TextView
+        android:id="@+id/MG_TV_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机安"
+        android:layout_below="@+id/MG_PB_start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp" />
+</RelativeLayout>
